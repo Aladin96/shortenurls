@@ -1,6 +1,6 @@
 # ShortenUrls
 
-ShortenUrls is a url shortener to reduce a long link, built with ReactJS 🔥.
+ShortenUrls is a url shortener to reduce a long link, built with **REACT, REDUX and FIREBASE** 🔥.
 
 ## SCREENSHOT
 
