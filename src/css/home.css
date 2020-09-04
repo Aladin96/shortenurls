@@ -141,6 +141,17 @@
   .wrapper {
     gap: 0;
   }
+
+  .content-home h2 {
+    font-size: 22px;
+  }
+  .content-home ul {
+    padding: 0;
+  }
+  .signed-out button {
+    width: 200px;
+    font-size: 14px;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 662px) and (max-width: 768px) {
