@@ -1,0 +1,125 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.modal h2 {
+  text-align: center;
+}
+
+.modal .close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #e91e63;
+}
+.modal .card {
+  position: relative;
+  padding: 40px 50px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.modal .card form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.modal .card form > div label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.modal .card form > div input {
+  padding: 12px 20px;
+  background: #f7f7f7;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.modal button {
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 19px;
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+}
+
+.modal .error-msg {
+  background: #f74380;
+  color: #fff;
+  text-align: center;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* Sign up */
+.signUp h2 {
+  color: #8bc34a;
+}
+.signUp .confirm {
+  text-align: center;
+}
+
+.signUp button {
+  background: #8bc34a;
+  border-bottom-color: #5b921a;
+}
+
+/* Login */
+
+.login h2 {
+  color: #2196f3;
+}
+.login .confirm {
+  text-align: center;
+}
+
+.login button {
+  background: #2196f3;
+  border-bottom-color: #166eb5;
+}
+
+/* Loading */
+.line {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #2196f3;
+  margin-right: 7px;
+}
+
+.load-3 .line:nth-last-child(1) {
+  animation: loadingC 0.6s 0.1s linear infinite;
+}
+.load-3 .line:nth-last-child(2) {
+  animation: loadingC 0.6s 0.2s linear infinite;
+}
+.load-3 .line:nth-last-child(3) {
+  animation: loadingC 0.6s 0.3s linear infinite;
+}
+
+@keyframes loadingC {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

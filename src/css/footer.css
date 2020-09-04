@@ -1,0 +1,51 @@
+footer {
+  background: #552d9c;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+footer p a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+footer p a::before {
+  position: absolute;
+  content: "";
+  width: 91%;
+  height: 8px;
+  background: #1c0740;
+  border: 0;
+  bottom: 1px;
+  opacity: 0.6;
+  transition: 0.5s ease-in-out;
+}
+
+footer p span {
+  display: inline-block;
+  animation: 1.5s ease 0s infinite beat;
+}
+
+footer p a:hover::before {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes beat {
+  0%,
+  50%,
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+  30%,
+  80% {
+    transform: scale(0.92, 0.95);
+  }
+}

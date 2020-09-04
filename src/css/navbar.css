@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #552d9c;
+  color: #fff;
+  border-bottom: 3px solid #482980;
+}
+
+nav .brand {
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+nav ul > li {
+  background: #673ab7;
+  padding: 10px;
+  border-radius: 5px;
+  /* font-size: 18px; */
+  cursor: pointer;
+  color: #fffff3;
+  border-bottom: 3px solid #432080;
+}

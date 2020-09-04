@@ -1,0 +1,14 @@
+export const SHOW_LOGIN = "SHOW_LOGIN";
+export const SHOW_SING_UP = "SHOW_SING_UP";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const LOGOUT = "LOGOUT";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_ERROR = "SIGNUP_ERROR";
+export const CLEAR_ERROR = "CLEAR_ERROR";
+export const ALERT_SUCCCES = "ALERT_SUCCCES";
+export const CLEAR_ALERT = "CLEAR_ALERT";
+export const LOADING = "LOADING";
+export const REDIRECT = "REDIRECT";
+export const ADD_URL = "ADD_URL";
+export const ADD_URL_ERROR = "ADD_URL_ERROR";
